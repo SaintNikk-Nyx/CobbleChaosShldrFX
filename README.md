@@ -1,5 +1,6 @@
 
----------- "CobbleChaosShldrFX" ----------
+"CobbleChaosShldrFX"
+---
 
 CobbleChaosShldrFX is fully open source.  
 Feel free to download, customize, and redistribute.  
@@ -78,6 +79,7 @@ Important Notes:
 ──────────────────────────────
 Happy hunting.
 ──────────────────────────────
+
 
 
 
