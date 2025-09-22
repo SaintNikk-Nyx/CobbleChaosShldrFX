@@ -12,5 +12,6 @@
       "showParticles": false,
       "showIcon": true
     }
-  ]
+  ],
+  "onRemoveFunction": "cobblemon:clear_shoulder_effects"
 }
