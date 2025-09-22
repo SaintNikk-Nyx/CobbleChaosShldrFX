@@ -39,7 +39,7 @@ Example shoulder effect JSON:
       "type": "potion_effect",
       "effect": "minecraft:speed",
       "amplifier": 2,
-      "duration": 40,       
+      "duration": 40,
       "ambient": true,
       "showParticles": false,
       "showIcon": true
@@ -73,6 +73,7 @@ Important Notes:
 ──────────────────────────────
 Happy hunting.
 ──────────────────────────────
+
 
 
 
