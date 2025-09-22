@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:ralts",
+  "implemented": true,
+  "shoulderMountable": true,
+  "shoulderEffects": [
+    {
+      "type": "potion_effect",
+      "effect": "minecraft:regeneration",
+      "amplifier": 1,
+      "duration": 40,
+      "ambient": true,
+      "showParticles": false,
+      "showIcon": true
+    }
+  ]
+}

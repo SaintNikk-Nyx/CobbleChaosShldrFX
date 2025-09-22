@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:jirachi",
+  "implemented": true,
+  "shoulderMountable": true,
+  "shoulderEffects": [
+    {
+      "type": "potion_effect",
+      "effect": "minecraft:luck",
+      "amplifier": 2, 
+      "duration": 40,
+      "ambient": true,
+      "showParticles": false,
+      "showIcon": true
+    }
+  ]
+}

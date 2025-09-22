@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:eevee",
+  "implemented": true,
+  "shoulderMountable": true,
+  "shoulderEffects": [
+    {
+      "type": "potion_effect",
+      "effect": "minecraft:luck",
+      "amplifier": 1,
+      "duration": 40,
+      "ambient": true,
+      "showParticles": false,
+      "showIcon": true
+    }
+  ]
+}

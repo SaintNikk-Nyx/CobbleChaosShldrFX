@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:victini",
+  "implemented": true,
+  "shoulderMountable": true,
+  "shoulderEffects": [
+    {
+      "type": "potion_effect",
+      "effect": "minecraft:luck",
+      "amplifier": 4,
+      "duration": 40,
+      "ambient": true,
+      "showParticles": false,
+      "showIcon": true
+    }
+  ]
+}
