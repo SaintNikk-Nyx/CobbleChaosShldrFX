@@ -1,6 +1,9 @@
+
 ---------- "CobbleChaosShldrFX" ----------
-Created for the "CobbleChaos" Cobblemon server.
-Free to distribute.
+
+CobbleChaosShldrFX is fully open source.  
+Feel free to download, customize, and redistribute.  
+Credit is appreciated, but not required.
 
 ──────────────────────────────
 What this datapack does:
@@ -16,36 +19,38 @@ Installation:
 3. Put a Pokémon with the desired effect on your shoulder.
 4. Enjoy your shoulder-powered boosts!
 
-──────────────────────────────
+
 Folder structure:
-──────────────────────────────
-/(addon_name)/cobblemon/
-    /data/
-        /cobblemon/
-            /species/
-                <target_pokemon>.json
-                /generation_#/
+---
+
+    /(addon_name/cobblemon)
+         /data
+            /cobblemon
+                /species
+                    <target_pokemon>.json
+                /generation_#
                     <optional_target_pokemon>.json
 
-──────────────────────────────
+
+
 Example shoulder effect JSON:
-──────────────────────────────
-{
-  "target": "cobblemon:pikachu",
-  "implemented": true,
-  "shoulderMountable": true,
-  "shoulderEffects": [
+---
     {
-      "type": "potion_effect",
-      "effect": "minecraft:speed",
-      "amplifier": 2,
-      "duration": 40,
-      "ambient": true,
-      "showParticles": false,
-      "showIcon": true
+      "target": "cobblemon:pikachu",
+      "implemented": true,
+      "shoulderMountable": true,
+      "shoulderEffects": [
+        {
+          "type": "potion_effect",
+          "effect": "minecraft:speed",
+          "amplifier": 2,
+          "duration": 40,
+          "ambient": true,
+          "showParticles": false,
+          "showIcon": true
+        }
+      ]
     }
-  ]
-}
 
 ──────────────────────────────
 Customizing the effect:
@@ -73,6 +78,7 @@ Important Notes:
 ──────────────────────────────
 Happy hunting.
 ──────────────────────────────
+
 
 
 
