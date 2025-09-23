@@ -99,4 +99,3 @@ Credit is appreciated, but not required.
 - Zip the folder as .zip for distribution.
 
 Happy hunting
-
