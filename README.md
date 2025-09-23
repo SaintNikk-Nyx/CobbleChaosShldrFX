@@ -34,6 +34,7 @@ Credit is appreciated, but not required.
                   clear_shoulder_effects.mcfunction
                   on_join.mcfunction
                   schedule_clear.mcfunction
+          /minecraft
               /tags
                   /functions
                       load.json 
@@ -98,3 +99,4 @@ Credit is appreciated, but not required.
 - Zip the folder as .zip for distribution.
 
 Happy hunting
+
