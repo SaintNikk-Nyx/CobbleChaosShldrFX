@@ -1,0 +1,1 @@
+execute as @s run function cobblechaosshldrfx:clear_shoulder_effects

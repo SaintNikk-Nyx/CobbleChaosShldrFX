@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:pidgey",
+  "implemented": true,
+  "shoulderMountable": true,
+  "shoulderEffects": [
+    {
+      "type": "potion_effect",
+      "effect": "minecraft:slow_falling",
+      "amplifier": 1,
+      "duration": 40,
+      "ambient": true,
+      "showParticles": false,
+      "showIcon": true
+    }
+  ],
+  "onRemoveFunction": "cobblechaosshldrfx:clear_shoulder_effects"
+}

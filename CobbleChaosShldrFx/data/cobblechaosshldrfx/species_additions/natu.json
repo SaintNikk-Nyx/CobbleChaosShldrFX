@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:natu",
+  "implemented": true,
+  "shoulderMountable": true,
+  "shoulderEffects": [
+    {
+      "type": "potion_effect",
+      "effect": "minecraft:resistance",
+      "amplifier": 1,
+      "duration": 40,
+      "ambient": true,
+      "showParticles": false,
+      "showIcon": true
+    }
+  ],
+  "onRemoveFunction": "cobblechaosshldrfx:clear_shoulder_effects"
+}

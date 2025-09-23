@@ -22,20 +22,26 @@ Credit is appreciated, but not required.
 
 ---
   
-   ```text
+```text
 
- /(addon_name/cobblemon)
-     /data
-        /cobblemon
-            /species
-                <target_pokemon>.json
-            /generation_#
-                <optional_target_pokemon>.json
-     /functions
-        /cobblemon
-            /clear_shoulder_effects
-                clear_shoulder_effects.
-                
+ /(addon_name/CobbleChaosShldrFX)
+      /data
+          /cobblechaosshldrfx
+              /species_additions
+                  <target_pokemon>.json
+                  [ ... ]
+              /functions
+                  clear_shoulder_effects.mcfunction
+                  on_join.mcfunction
+                  schedule_clear.mcfunction
+              /tags
+                  /functions
+                      load.json 
+      pack.mcmeta
+      pack.png
+      README.md
+
+
 ```
 
 ## Example shoulder effect JSON
@@ -56,7 +62,7 @@ Credit is appreciated, but not required.
       "showIcon": true
     }
   ],
-  "onRemoveFunction": "cobblemon:clear_shoulder_effects"
+  "onRemoveFunction": "cobblechaosshldrfx:clear_shoulder_effects"
 }
 
 ```
