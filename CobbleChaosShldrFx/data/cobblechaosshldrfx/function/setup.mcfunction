@@ -1,0 +1,1 @@
+schedule function cobblechaosshldrfx:schedule_clear 2400t
