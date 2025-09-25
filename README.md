@@ -30,14 +30,17 @@ Credit is appreciated, but not required.
               /species_additions
                   <target_pokemon>.json
                   [ ... ]
-              /functions
+              /function
                   clear_shoulder_effects.mcfunction
+                  first_tick.mcfunction
                   on_join.mcfunction
                   schedule_clear.mcfunction
+                  setup.mcfunction
           /minecraft
-              /tags
-                  /functions
+              /tag
+                  /function
                       load.json 
+                      tick.json
       pack.mcmeta
       pack.png
       README.md
