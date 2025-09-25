@@ -32,15 +32,12 @@ Credit is appreciated, but not required.
                   [ ... ]
               /function
                   clear_shoulder_effects.mcfunction
-                  first_tick.mcfunction
-                  on_join.mcfunction
                   schedule_clear.mcfunction
                   setup.mcfunction
           /minecraft
-              /tag
+              /tags
                   /function
                       load.json 
-                      tick.json
       pack.mcmeta
       pack.png
       README.md
@@ -65,8 +62,7 @@ Credit is appreciated, but not required.
       "showParticles": false,
       "showIcon": true
     }
-  ],
-  "onRemoveFunction": "cobblechaosshldrfx:clear_shoulder_effects"
+  ]
 }
 
 ```
