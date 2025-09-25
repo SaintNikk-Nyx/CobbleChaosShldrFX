@@ -6,9 +6,8 @@ Credit is appreciated, but not required.
 
 ## What this datapack does
 
-- Adds shoulderable Cobblemon that grant potion effects while riding on your shoulder.
 - Adds a "shoulderMountable" property to the Pokémon’s data.
-- Adds a "shoulderEffects are refreshed as long as the Pokémon is mounted and disappear naturally when removed.
+- Adds an "Effect" that gets removed when the pokemon dismounts.
 - Effects are automatically cleared when the Pokémon is removed via onRemoveFunction.
 
 ## Installation
@@ -16,7 +15,7 @@ Credit is appreciated, but not required.
   1. Place the folder in your world save → datapacks.
   2. Start your world/server.
   3. Put a Pokémon with the desired effect on your shoulder.
-  4. Enjoy your shoulder-powered boosts!
+  4. Profit.
 
 ## Folder structure
 
@@ -73,7 +72,7 @@ Credit is appreciated, but not required.
 
 - Change "effect" to any valid Minecraft potion effect (see Minecraft Wiki).
 - Set "amplifier" to your desired level (0 = I, 1 = II, etc.).
-- Set "duration" to your desired duration in ticks.
+- Set "duration" to your desired duration in ticks. // not needed.
 - Set "ambient": true to make the effect lasts.
 - "ambient": true = subtle effect.
 - "ambient": false = instant removal.
@@ -94,7 +93,7 @@ Credit is appreciated, but not required.
 - Keep the zip and folder structure intact to avoid conflicts.
 - Ensure "target" is a valid Pokémon in the cobblemon mod.
 - Ensure "implemented" is true to enable the effect.
-- Ensure "duration" is short enough for instant removal after the Pokémon is taken off.
 - Zip the folder as .zip for distribution.
 
 Happy hunting
+
