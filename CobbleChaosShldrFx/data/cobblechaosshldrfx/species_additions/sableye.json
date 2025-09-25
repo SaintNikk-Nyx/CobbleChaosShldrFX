@@ -12,6 +12,5 @@
       "showParticles": false, 
       "showIcon": true
     }
-  ],
-  "onRemoveFunction": "cobblechaosshldrfx:clear_shoulder_effects"
+  ]
 }
