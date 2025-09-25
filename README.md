@@ -8,7 +8,7 @@ Credit is appreciated, but not required.
 
 - Adds a "shoulderMountable" property to the Pokémon’s data.
 - Adds an "Effect" that gets removed when the pokemon dismounts.
-- Effects are automatically cleared when the Pokémon is removed via onRemoveFunction.
+- Functions added to handle the permanent effect bug.
 
 ## Installation
 
@@ -96,4 +96,5 @@ Credit is appreciated, but not required.
 - Zip the folder as .zip for distribution.
 
 Happy hunting
+
 
