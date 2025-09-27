@@ -17,6 +17,10 @@ Credit is appreciated, but not required.
   3. Put a Pokémon with the desired effect on your shoulder.
   4. Profit.
 
+## Minecraft 1.21+ datapack PSA
+The folder for mcfunction files is now function/ (singular), not functions/ (plural). 
+If your functions aren’t running, check your folder names!
+
 ## Folder structure
 
 ---
@@ -96,5 +100,6 @@ Credit is appreciated, but not required.
 - Zip the folder as .zip for distribution.
 
 Happy hunting
+
 
 
